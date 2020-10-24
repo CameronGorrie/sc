@@ -17,7 +17,7 @@ const DefaultServerPort = 57120
 
 // ErrNoScsynth happens when you try to start a SuperCollider
 // server but do not have an scsynth executable in your PATH.
-var ErrNoScsynth = errors.New("Please install scsynth somewhere in your PATH.")
+var ErrNoScsynth = errors.New("please install scsynth somewhere in your PATH")
 
 // Server represents a running instance of scsynth.
 type Server struct {
