@@ -3,7 +3,7 @@ package sc_test
 import (
 	"testing"
 
-	"github.com/scgolang/sc"
+	"github.com/CameronGorrie/sc"
 )
 
 func TestTruncf(t *testing.T) {
